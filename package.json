@@ -1,0 +1,29 @@
+{
+  "name": "protractor_sportdirect_test",
+  "version": "1.0.0",
+  "description": "Basic Test for Sportsdirect.pl",
+  "main": "conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^5.0.1",
+    "protractor": "^5.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node_modules/protractor/bin/webdriver-manager update",
+    "test": "node_modules/protractor/bin/protractor conf.js",
+    "before-test": "node_modules/protractor/bin/webdriver-manager start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lina90Karo/protractor_sportdirect_test.git"
+  },
+  "author": "Karolina Krzywanek",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Lina90Karo/protractor_sportdirect_test/issues"
+  },
+  "homepage": "https://github.com/Lina90Karo/protractor_sportdirect_test#readme"
+}
